@@ -1,4 +1,22 @@
 ﻿
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
 using System;
 using System.IO;
 public class IfLearning
@@ -10,13 +28,15 @@ public class IfLearning
         {
             Console.WriteLine("execute this line");
         }
-        if (a < 2)
+        else
         {
-            Console.WriteLine("execute this line too");
+            Console.WriteLine("execute another line too");
         }
-        Console.WriteLine("execute next line");
+        Console.WriteLine("this line is always execute");
     }
 }
+
+
 
 
 
